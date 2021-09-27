@@ -1,0 +1,33 @@
+body {
+  background-color: #eeffff;
+}
+
+.container {
+  background: #fff;
+  width: 36rem;
+  height: 29rem;
+  margin: 5rem auto 0 auto ;
+  padding: 5rem;
+}
+
+
+.logo{
+    margin: 3rem auto 0 auto;
+}
+
+.signin{
+    padding: 2rem;
+    border: 1px solid gray;
+    border-radius: 3rem;
+    background-color: #fff;
+}
+
+.signin:hover{
+    background-color: #a29bfe;
+    color: #fff;
+}
+
+.info{
+    padding-top: 2rem;
+    text-align: center;
+}
