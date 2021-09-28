@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons+Outlined");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #002333;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none !important ;
+}
+
+/* nav */
+.nav-bar {
+  display: flex;
+  background-color: #fff;
+  position: sticky;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: 1px solid #e5e5e5;
+  z-index: 1;
+}
+
+.nav-bar ul {
+  width: 50%;
+  height: 60px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar ul:first-child {
+  margin-left: 30px;
+}
+
+.nav-bar .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar .logo img {
+  width: 10rem;
+}
+
+/* account */
+.account {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.account > span {
+  cursor: pointer;
+}
+
+/* banner */
+.banner {
+  background-image: url("../assets/bannerbackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 31.25rem;
+}
